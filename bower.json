@@ -1,0 +1,32 @@
+{
+  "name": "angular1-rich-editer",
+  "description": "",
+  "main": "richEditor.js",
+  "authors": [
+    "yangjie"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "rich-editer"
+  ],
+  "main": [
+    "./dist/richEditor.min.js",
+    "./dist/richEditor.min.css"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "jquery": "~2.1.4",
+    "wangEditor": "^3.1.1"
+  }
+}
