@@ -9,7 +9,7 @@
 ```json
   /*bower.json*/
   "dependencies": {
-    "rich-editor": "http://git.aerohuanyou.com:81/yangjie/rich-editor.git#1.0.0"
+    "rich-editor": "JSer-yj/rich-editor.git"
   }
 ```    
 
