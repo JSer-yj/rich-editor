@@ -9,7 +9,7 @@
 ```json
 {
   "dependencies": {
-    "rich-editor": "JSer-yj/rich-editor.git"
+    "rich-editor": "JSer-yj/rich-editor"
   }
 }
 ```    
