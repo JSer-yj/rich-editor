@@ -4,16 +4,17 @@
     editorDisabled: '=',//不可编辑   
     content: '=', //富文本的值        
 
-> package.json   
+> package.json/bower.json   
 
 ```json
-  /*bower.json*/
+{
   "dependencies": {
     "rich-editor": "JSer-yj/rich-editor.git"
   }
+}
 ```    
 
-> 执行 bower install       
+> 执行 npm/bower install       
 
 > html页面：   
 

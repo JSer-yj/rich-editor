@@ -1,7 +1,6 @@
 {
-  "name": "angular1-rich-editer",
+  "name": "angular-rich-editer",
   "description": "",
-  "main": "richEditor.js",
   "authors": [
     "yangjie"
   ],
