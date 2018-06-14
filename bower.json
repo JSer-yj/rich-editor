@@ -11,7 +11,7 @@
     "rich-editer"
   ],
   "main": [
-    "./dist/richEditor.min.js",
+    "./dist/richEditor.js",
     "./dist/richEditor.min.css"
   ],
   "homepage": "",
