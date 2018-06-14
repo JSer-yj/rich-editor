@@ -22,7 +22,13 @@
 <rich-editor id="richTxt" editor-disabled="false" content="content"></rich-editor>
 ```
 
-> angular controller：   
+
+> 依赖注入   
+```javascript
+angular.module('mydemo',['rich.editor']);  
+```
+
+> angular controller： 
 
 ```javascript
 $scope.content="<h1>吼吼~</h1>";
