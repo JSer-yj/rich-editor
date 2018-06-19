@@ -39,6 +39,7 @@
           }
           editor.customConfig.onchange = function(html) {
             scope.content = html; // html 即变化之后的内容
+            scope.$emit("message:richEditor-get", html); // 向父级广播消息
           };
           editor.create();
           if (scope.content) {
@@ -51,7 +52,7 @@
           }
 
         }
-        var receive = scope.$on("method:richEditor-set", function(e, txt) {
+        var receive = scope.$on("message:richEditor-set", function(e, txt) { //接收初始值
           editor.txt.html(txt);
         });
         var disable = scope.$watch("editorDisabled", function(n, o) {
