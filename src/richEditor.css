@@ -1,6 +1,6 @@
 .richEditor{
   position: relative;
-  min-width:600px;
+  min-width:470px;
 }
 .richEditor  .w-e-text ul li{
   list-style: disc;
@@ -13,4 +13,18 @@
 }
 .richEditor  .wh540{
   width: 540px !important;
+}
+div.w-e-droplist{/*设置下拉框背景*/
+  background-color: #f1f1f1 !important;
+}
+div.w-e-droplist ul li:hover{/*设置下拉框鼠标经过样式*/
+  box-shadow: 1px 1px 1px #ccc;
+  -webkit-box-shadow:  1px 1px 1px #ccc;
+  -moz-box-shadow:  1px 1px 1px #ccc;
+  -o-box-shadow:  1px 1px 1px #ccc;
+}
+.w-e-text-container .w-e-panel-container{/*修改上传图片下拉框的位置*/
+  left: 0px !important;
+  margin-left: 180px !important;
+  width: 260px !important;
 }

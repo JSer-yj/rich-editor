@@ -31,6 +31,11 @@ angular.module('mydemo',['rich.editor']);
 > angular controller： 
 
 ```javascript
+//设置
 $scope.content="<h1>吼吼~</h1>";
-$scope.$broadcast('method:richEditor-set',$scope.content);
+$scope.$broadcast('message:richEditor-set',$scope.content);
+//接收
+$scope.$on("message:richEditor-get", function(e, txt) {
+  $scope.content=txt;
+});
 ```
